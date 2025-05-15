@@ -1,0 +1,26 @@
+
+
+# install eksctl 
+
+
+# Install  aws CLI 
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+------- Unzip the Installer
+
+unzip awscliv2.zip
+
+-----If unzip is not installed, run:
+
+sudo apt install unzip -y        # Debian/Ubuntu
+# or
+sudo yum install unzip -y        # RHEL/CentOS
+
+----- Run the Installer
+sudo ./aws/install
+
+------This installs the aws CLI to /usr/local/bin/aws.
+
+ Verify the Installation
+aws --version
